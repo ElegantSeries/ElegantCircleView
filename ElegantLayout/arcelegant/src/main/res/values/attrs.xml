@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ArcHeader">
+        <attr name="arc_height" format="dimension" />
+        <attr name="arc_cropCurve" format="enum">
+            <!-- convex ( 凸面的-->
+            <enum name="cropConvex" value="1" />
+            <!-- 凹面的 )-->
+            <enum name="cropConcave" value="2" />
+        </attr>
+
+        <!-- Position for top and bottom -->
+        <attr name="arc_position" format="enum">
+            <enum name="bottom" value="1" />
+            <enum name="top" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>
