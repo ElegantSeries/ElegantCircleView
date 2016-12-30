@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView">
+        <attr name="backgroundColor" format="color" />
+        <attr name="borderColor" format="color" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="selectedColor" format="color" />
+        <attr name="shadowRadius" format="dimension" />
+        <attr name="shadowDx" format="dimension" />
+        <attr name="shadowDy" format="dimension" />
+        <attr name="shadowColor" format="color" />
+        <attr name="pressedRingWidth" format="dimension" />
+        <attr name="pressedRingColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageViewStyle">
+        <attr name="circleImageViewDefault" format="reference" />
+    </declare-styleable>
+</resources>
